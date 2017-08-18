@@ -12,6 +12,8 @@
 		E04EA4FB1F3D4A2C003F0329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04EA4F91F3D4A2C003F0329 /* Main.storyboard */; };
 		E04EA4FD1F3D4A2C003F0329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E04EA4FC1F3D4A2C003F0329 /* Assets.xcassets */; };
 		E04EA5001F3D4A2C003F0329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04EA4FE1F3D4A2C003F0329 /* LaunchScreen.storyboard */; };
+		E07B6DA01F46C2E600526048 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B6D9F1F46C2E600526048 /* SearchTableViewController.swift */; };
+		E07B6DA21F46C7DA00526048 /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B6DA11F46C7DA00526048 /* MovieItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E04EA4FC1F3D4A2C003F0329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E04EA4FF1F3D4A2C003F0329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E04EA5011F3D4A2C003F0329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E07B6D9F1F46C2E600526048 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		E07B6DA11F46C7DA00526048 /* MovieItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E04EA4FC1F3D4A2C003F0329 /* Assets.xcassets */,
 				E04EA4FE1F3D4A2C003F0329 /* LaunchScreen.storyboard */,
 				E04EA5011F3D4A2C003F0329 /* Info.plist */,
+				E07B6D9F1F46C2E600526048 /* SearchTableViewController.swift */,
+				E07B6DA11F46C7DA00526048 /* MovieItem.swift */,
 			);
 			path = Modi;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E04EA4F81F3D4A2C003F0329 /* ViewController.swift in Sources */,
+				E07B6DA21F46C7DA00526048 /* MovieItem.swift in Sources */,
+				E07B6DA01F46C2E600526048 /* SearchTableViewController.swift in Sources */,
 				E04EA4F61F3D4A2C003F0329 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +312,7 @@
 				E04EA5061F3D4A2C003F0329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
